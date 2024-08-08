@@ -25,6 +25,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.avrians.tilikbrebes.ui.navigation.NavigationItem
 import com.avrians.tilikbrebes.ui.navigation.Screen
+import com.avrians.tilikbrebes.ui.screen.profile.ProfileScreen
 import com.avrians.tilikbrebes.ui.theme.TilikBrebesTheme
 
 @Composable
@@ -52,6 +53,7 @@ fun TilikBrebesApp(
             composable(Screen.Favorite.route){
             }
             composable(Screen.Profile.route){
+                ProfileScreen()
             }
             composable(
                 route = Screen.DetailWisata.route,
