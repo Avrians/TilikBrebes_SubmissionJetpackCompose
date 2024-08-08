@@ -2,7 +2,7 @@ package com.avrians.tilikbrebes.di
 
 import com.avrians.tilikbrebes.data.WisataRepository
 
-object injection {
+object Injection {
     fun provideRepository(): WisataRepository {
         return WisataRepository.getInstance()
     }

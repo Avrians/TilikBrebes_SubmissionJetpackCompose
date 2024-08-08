@@ -58,7 +58,7 @@ object FakeWisataData {
             name = "Bukit Panenjoan",
             location = "Salem, Brebes",
             description = "Bukit Panenjoan adalah destinasi wisata alam yang terletak di Kecamatan Salem, Brebes. Bukit ini menawarkan pemandangan alam yang indah dengan hamparan pepohonan dan sawah yang hijau. Dari puncak bukit, pengunjung dapat melihat pemandangan matahari terbit dan terbenam yang memukau.",
-            image = R.drawable.bukitPanenjoan,
+            image = R.drawable.bukitpanenjoan,
             rating = 4.8,
             price = "Rp 3.000",
             openTime = "05.00",
